@@ -42,3 +42,8 @@ b = np.zeros((5,4)) #5x4 (2D Array)
 c = np.zeros((3)) #1D Array 3 Elements
 '''
 
+m = np.zeros((4,4),dtype=int)
+
+m[1,2]=9
+
+print(m)
